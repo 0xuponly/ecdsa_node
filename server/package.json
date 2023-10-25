@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": {
+    "./secp265k1": {
+      "import": "./ethereum-cryptography/secp265k1",
+      "require": "./ethereum-cryptography/secp265k1"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethereum-cryptography": "^2.1.2",
+    "ethereum-public-key-to-address": "^0.0.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "express": "^4.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
